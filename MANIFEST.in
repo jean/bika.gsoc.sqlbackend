@@ -1,0 +1,3 @@
+graft src/bika
+graft docs/
+include *.cfg *.rst *.in

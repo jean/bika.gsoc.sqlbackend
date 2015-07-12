@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+    name="bika.gsoc.sqlbackend"
+    interface="bika.gsoc.sqlbackend.interfaces.IBikaGsocSqlbackendLayer"
+  />
+</layers>
