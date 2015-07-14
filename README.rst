@@ -6,7 +6,8 @@
 bika.lims.sqlbackend
 ==============================================================================
 
-Tell me what your product does
+Mirror facets of Bika data to SQL for analysis and integration
+
 
 Features
 --------
@@ -25,14 +26,6 @@ Documentation
 -------------
 
 Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
 
 
 Installation
@@ -55,8 +48,8 @@ and then running "bin/buildout"
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/bika.lims.sqlbackend/issues
-- Source Code: https://github.com/collective/bika.lims.sqlbackend
+- Issue Tracker: https://github.com/jean/bika.lims.sqlbackend/issues
+- Source Code: https://github.com/jean/bika.lims.sqlbackend
 - Documentation: https://docs.plone.org/foo/bar
 
 Support
