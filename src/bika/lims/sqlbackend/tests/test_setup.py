@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Setup tests for this package."""
-from bika.lims.sqlbackend.testing import BIKA_GSOC_SQLBACKEND_INTEGRATION_TESTING  # noqa
+from bika.lims.sqlbackend.testing import BIKA_LIMS_SQLBACKEND_INTEGRATION_TESTING  # noqa
 from plone import api
 
 import unittest2 as unittest
@@ -9,7 +9,7 @@ import unittest2 as unittest
 class TestSetup(unittest.TestCase):
     """Test that bika.lims.sqlbackend is properly installed."""
 
-    layer = BIKA_GSOC_SQLBACKEND_INTEGRATION_TESTING
+    layer = BIKA_LIMS_SQLBACKEND_INTEGRATION_TESTING
 
     def setUp(self):
         """Custom shared utility setup for tests."""

@@ -21,24 +21,24 @@ class BikaGsocSqlbackendLayer(PloneSandboxLayer):
         applyProfile(portal, 'bika.lims.sqlbackend:default')
 
 
-BIKA_GSOC_SQLBACKEND_FIXTURE = BikaGsocSqlbackendLayer()
+BIKA_LIMS_SQLBACKEND_FIXTURE = BikaGsocSqlbackendLayer()
 
 
-BIKA_GSOC_SQLBACKEND_INTEGRATION_TESTING = IntegrationTesting(
-    bases=(BIKA_GSOC_SQLBACKEND_FIXTURE,),
+BIKA_LIMS_SQLBACKEND_INTEGRATION_TESTING = IntegrationTesting(
+    bases=(BIKA_LIMS_SQLBACKEND_FIXTURE,),
     name='BikaGsocSqlbackendLayer:IntegrationTesting'
 )
 
 
-BIKA_GSOC_SQLBACKEND_FUNCTIONAL_TESTING = FunctionalTesting(
-    bases=(BIKA_GSOC_SQLBACKEND_FIXTURE,),
+BIKA_LIMS_SQLBACKEND_FUNCTIONAL_TESTING = FunctionalTesting(
+    bases=(BIKA_LIMS_SQLBACKEND_FIXTURE,),
     name='BikaGsocSqlbackendLayer:FunctionalTesting'
 )
 
 
-BIKA_GSOC_SQLBACKEND_ACCEPTANCE_TESTING = FunctionalTesting(
+BIKA_LIMS_SQLBACKEND_ACCEPTANCE_TESTING = FunctionalTesting(
     bases=(
-        BIKA_GSOC_SQLBACKEND_FIXTURE,
+        BIKA_LIMS_SQLBACKEND_FIXTURE,
         REMOTE_LIBRARY_BUNDLE_FIXTURE,
         z2.ZSERVER_FIXTURE
     ),

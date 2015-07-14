@@ -10,7 +10,7 @@
 #
 # 1) Start robot server:
 #
-# $ bin/robot-server --reload-path src bika.lims.sqlbackend.testing.BIKA_GSOC_SQLBACKEND_ACCEPTANCE_TESTING
+# $ bin/robot-server --reload-path src bika.lims.sqlbackend.testing.BIKA_LIMS_SQLBACKEND_ACCEPTANCE_TESTING
 #
 # 2) Run robot tests:
 #

@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-from bika.lims.sqlbackend.testing import BIKA_GSOC_SQLBACKEND_ACCEPTANCE_TESTING  # noqa
+from bika.lims.sqlbackend.testing import BIKA_LIMS_SQLBACKEND_ACCEPTANCE_TESTING  # noqa
 from plone.app.testing import ROBOT_TEST_LEVEL
 from plone.testing import layered
 
@@ -22,7 +22,7 @@ def test_suite():
         suite.addTests([
             layered(
                 robottestsuite,
-                layer=BIKA_GSOC_SQLBACKEND_ACCEPTANCE_TESTING
+                layer=BIKA_LIMS_SQLBACKEND_ACCEPTANCE_TESTING
             ),
         ])
     return suite
