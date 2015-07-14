@@ -3,7 +3,7 @@
     xmlns:five="http://namespaces.zope.org/five"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     xmlns:i18n="http://namespaces.zope.org/i18n"
-    i18n_domain="bika.gsoc.sqlbackend">
+    i18n_domain="bika.lims.sqlbackend">
 
     <includeDependencies package="." />
 
@@ -14,16 +14,16 @@
 
     <genericsetup:registerProfile
         name="default"
-        title="bika.gsoc.sqlbackend"
+        title="bika.lims.sqlbackend"
         directory="profiles/default"
-        description="Installs the bika.gsoc.sqlbackend add-on."
+        description="Installs the bika.lims.sqlbackend add-on."
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
 
     <genericsetup:importStep
-        name="bika.gsoc.sqlbackend-postInstall"
-        title="bika.gsoc.sqlbackend post_install import step"
-        description="Post install import step from bika.gsoc.sqlbackend"
+        name="bika.lims.sqlbackend-postInstall"
+        title="bika.lims.sqlbackend post_install import step"
+        description="Post install import step from bika.lims.sqlbackend"
         handler=".setuphandlers.post_install">
     </genericsetup:importStep>
 

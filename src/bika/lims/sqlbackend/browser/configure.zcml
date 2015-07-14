@@ -2,18 +2,18 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:browser="http://namespaces.zope.org/browser"
     xmlns:plone="http://namespaces.plone.org/plone"
-    i18n_domain="bika.gsoc.sqlbackend">
+    i18n_domain="bika.lims.sqlbackend">
 
     <!-- Set overrides folder for Just-a-Bunch-Of-Templates product -->
     <include package="z3c.jbot" file="meta.zcml" />
     <browser:jbot
         directory="overrides"
-        layer="bika.gsoc.sqlbackend.interfaces.IBikaGsocSqlbackendLayer"
+        layer="bika.lims.sqlbackend.interfaces.IBikaGsocSqlbackendLayer"
         />
 
     <!-- Publish static files -->
     <browser:resourceDirectory
-        name="bika.gsoc.sqlbackend"
+        name="bika.lims.sqlbackend"
         directory="static"
         />
 

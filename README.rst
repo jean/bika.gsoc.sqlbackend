@@ -3,7 +3,7 @@
    This text does not appear on pypi or github. It is a comment.
 
 ==============================================================================
-bika.gsoc.sqlbackend
+bika.lims.sqlbackend
 ==============================================================================
 
 Tell me what your product does
@@ -38,14 +38,14 @@ This product has been translated into
 Installation
 ------------
 
-Install bika.gsoc.sqlbackend by adding it to your buildout::
+Install bika.lims.sqlbackend by adding it to your buildout::
 
    [buildout]
 
     ...
 
     eggs =
-        bika.gsoc.sqlbackend
+        bika.lims.sqlbackend
 
 
 and then running "bin/buildout"
@@ -55,8 +55,8 @@ and then running "bin/buildout"
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/bika.gsoc.sqlbackend/issues
-- Source Code: https://github.com/collective/bika.gsoc.sqlbackend
+- Issue Tracker: https://github.com/collective/bika.lims.sqlbackend/issues
+- Source Code: https://github.com/collective/bika.lims.sqlbackend
 - Documentation: https://docs.plone.org/foo/bar
 
 Support

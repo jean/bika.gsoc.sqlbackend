@@ -1,5 +1,5 @@
 ====================
-bika.gsoc.sqlbackend
+bika.lims.sqlbackend
 ====================
 
 User documentation

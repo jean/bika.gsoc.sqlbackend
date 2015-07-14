@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Installer for the bika.gsoc.sqlbackend package."""
+"""Installer for the bika.lims.sqlbackend package."""
 
 from setuptools import find_packages
 from setuptools import setup
@@ -18,7 +18,7 @@ long_description = (
 
 
 setup(
-    name='bika.gsoc.sqlbackend',
+    name='bika.lims.sqlbackend',
     version='0.1',
     description="Mirror facets of Bika data to SQL for analysis and integration",
     long_description=long_description,
@@ -33,10 +33,10 @@ setup(
     keywords='Python Plone',
     author='Jean Jordaan',
     author_email='jean.jordaan@gmail.com',
-    url='http://pypi.python.org/pypi/bika.gsoc.sqlbackend',
+    url='http://pypi.python.org/pypi/bika.lims.sqlbackend',
     license='GPL',
     packages=find_packages('src', exclude=['ez_setup']),
-    namespace_packages=['bika', 'bika.gsoc'],
+    namespace_packages=['bika', 'bika.lims'],
     package_dir={'': 'src'},
     include_package_data=True,
     zip_safe=False,

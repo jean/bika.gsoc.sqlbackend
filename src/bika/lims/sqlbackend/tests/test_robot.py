@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-from bika.gsoc.sqlbackend.testing import BIKA_GSOC_SQLBACKEND_ACCEPTANCE_TESTING  # noqa
+from bika.lims.sqlbackend.testing import BIKA_GSOC_SQLBACKEND_ACCEPTANCE_TESTING  # noqa
 from plone.app.testing import ROBOT_TEST_LEVEL
 from plone.testing import layered
 

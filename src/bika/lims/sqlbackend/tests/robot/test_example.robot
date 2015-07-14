@@ -4,17 +4,17 @@
 #
 # Run this robot test stand-alone:
 #
-#  $ bin/test -s bika.gsoc.sqlbackend -t test_example.robot --all
+#  $ bin/test -s bika.lims.sqlbackend -t test_example.robot --all
 #
 # Run this robot test with robot server (which is faster):
 #
 # 1) Start robot server:
 #
-# $ bin/robot-server --reload-path src bika.gsoc.sqlbackend.testing.BIKA_GSOC_SQLBACKEND_ACCEPTANCE_TESTING
+# $ bin/robot-server --reload-path src bika.lims.sqlbackend.testing.BIKA_GSOC_SQLBACKEND_ACCEPTANCE_TESTING
 #
 # 2) Run robot tests:
 #
-# $ bin/robot src/bika/gsoc/sqlbackend/tests/robot/test_example.robot
+# $ bin/robot src/bika/lims/sqlbackend/tests/robot/test_example.robot
 #
 # See the http://docs.plone.org for further details (search for robot
 # framework).

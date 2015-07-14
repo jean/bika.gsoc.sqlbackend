@@ -7,7 +7,7 @@ from plone.app.testing import PLONE_FIXTURE
 from plone.app.testing import PloneSandboxLayer
 from plone.testing import z2
 
-import bika.gsoc.sqlbackend
+import bika.lims.sqlbackend
 
 
 class BikaGsocSqlbackendLayer(PloneSandboxLayer):
@@ -15,10 +15,10 @@ class BikaGsocSqlbackendLayer(PloneSandboxLayer):
     defaultBases = (PLONE_FIXTURE,)
 
     def setUpZope(self, app, configurationContext):
-        self.loadZCML(package=bika.gsoc.sqlbackend)
+        self.loadZCML(package=bika.lims.sqlbackend)
 
     def setUpPloneSite(self, portal):
-        applyProfile(portal, 'bika.gsoc.sqlbackend:default')
+        applyProfile(portal, 'bika.lims.sqlbackend:default')
 
 
 BIKA_GSOC_SQLBACKEND_FIXTURE = BikaGsocSqlbackendLayer()

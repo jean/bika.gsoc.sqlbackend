@@ -2,7 +2,7 @@
 
 
 def isNotCurrentProfile(context):
-    return context.readDataFile('bikagsocsqlbackend_marker.txt') is None
+    return context.readDataFile('bikalimssqlbackend_marker.txt') is None
 
 
 def post_install(context):
