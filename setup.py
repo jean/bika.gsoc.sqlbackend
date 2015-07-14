@@ -44,6 +44,7 @@ setup(
         'plone.api',
         'setuptools',
         'z3c.jbot',
+        'bika.lims',
     ],
     extras_require={
         'test': [
